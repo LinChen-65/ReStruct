@@ -62,8 +62,8 @@ def main():
     torch.cuda.manual_seed(args.seed)
 
     if(args.dataset=='IMDB'): 
-        dir = f'./log_node_classification/train/IMDB_lr0.005 (best test 0.6091)'
-    elif(args.dataset=='ACM'): dir = f'./log_node_classification/train/ACM_lr0.005 (best test 0.9227)'
+        dir = f'./log_node_classification/train/IMDB'
+    elif(args.dataset=='ACM'): dir = f'./log_node_classification/train/ACM'
     gene_pools_history_dict_path = os.path.join(dir, 'gene_pools_history_dict.pkl')
     gene_pools_performance_dict_path = os.path.join(dir, 'gene_pools_performance_dict.pkl')
 
