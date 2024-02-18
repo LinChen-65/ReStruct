@@ -1,6 +1,16 @@
 # ReStruct
 Large Language Model-driven Meta-structure Discovery in Heterogeneous Information Network
 
+## Environment
+```shell
+python==3.8
+pytorch==1.13.1 with CUDA support
+numpy==1.23.5
+networkx==2.8.8
+scikit-learn==1.2.0
+pandas==1.5.2
+```
+
 ## File description
 `preprocess_recommendation.py`: Script that preprocesses data for recommendation.
 
